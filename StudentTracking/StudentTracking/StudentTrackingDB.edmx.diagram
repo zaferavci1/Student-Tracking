@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fd2778cf6c0448fe9979435e17e3ff38" Name="Diagram1" ZoomLevel="55">
+        <EntityTypeShape EntityType="StudentTrackingDBModel.courses" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentTrackingDBModel.groups" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentTrackingDBModel.program" Width="1.5" PointX="6" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentTrackingDBModel.semesters" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentTrackingDBModel.students" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentTrackingDBModel.teachers" Width="1.5" PointX="3.75" PointY="8.25" IsExpanded="true" />
+        <AssociationConnector Association="StudentTrackingDBModel.FK__groups__course_i__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentTrackingDBModel.FK__program__course___44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentTrackingDBModel.FK__groups__leader_s__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentTrackingDBModel.FK__groups__program___4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentTrackingDBModel.FK__program__semeste__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentTrackingDBModel.FK__program__teacher__45F365D3" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

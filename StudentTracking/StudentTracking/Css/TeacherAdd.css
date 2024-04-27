@@ -1,0 +1,37 @@
+﻿/* TeacherAdd.css */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    background-color: #f0f0f0; /* Arka plan rengi */
+    padding: 10px;
+    text-align: center;
+}
+
+.label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.addButton {
+    background-color: #007bff; /* Butonun arka plan rengi */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+    .addButton:hover {
+        background-color: #0056b3;
+    }

@@ -1,0 +1,53 @@
+﻿
+
+/* TeacherList.css */
+.TeacherList {
+    /* Burada CSS kurallarınızı tanımlayın */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    /* Diğer stil tanımları */
+}
+
+#btnAddTeacher {
+    background-color: #4CAF50; /* Arka plan rengi */
+    color: white; /* Yazı rengi */
+    padding: 10px 20px; /* Buton içeriği ile kenar boşluğu */
+    border: none; /* Kenar çizgisi yok */
+    border-radius: 4px; /* Köşe yuvarlama */
+    cursor: pointer; /* İşaretçi türü */
+    text-align: center; /* Yazıyı ortala */
+    text-decoration: none; /* Alt çizgi kaldır */
+    display: inline-block; /* Satır içi blok */
+    font-size: 16px; /* Yazı boyutu */
+    margin-bottom: 10px; /* Alt boşluk */
+}
+
+    /* Hover efekti */
+    #btnAddTeacher:hover {
+        background-color: #45a049; /* Hover durumunda arka plan rengi */
+    }
+
+.gridViewStyle {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    .gridViewStyle th, .gridViewStyle td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .gridViewStyle tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .gridViewStyle th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: #4CAF50;
+        color: white;
+    }
+
